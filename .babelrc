@@ -1,0 +1,35 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "current"
+        }
+      }
+    ],
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "macros",
+    "react-hot-loader/babel",
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-transform-regenerator",
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-transform-destructuring",
+    [
+      "module-resolver",
+      {
+        "root": [
+          "./src"
+        ],
+        "alias": {
+          "components": "./src/components/",
+          "pages": "./src/pages/",
+          "assets": "./src/assets/"
+        }
+      }
+    ]
+  ],
+  "sourceMap": "inline"
+}
