@@ -1,0 +1,13 @@
+.square{
+  width: 7rem;
+  height: 7rem;
+  padding: 2rem;
+  text-align: center;
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
