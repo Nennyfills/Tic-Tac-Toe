@@ -1,5 +1,5 @@
 {
-  "name": "hatchways_frontend_challenge",
+  "name": "Tic-Tac-Toe-Game",
   "version": "1.0.0",
   "description": "Tic Tac Toe is a finite-sum game",
   "main": "server.js",
